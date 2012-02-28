@@ -108,8 +108,8 @@
             :isep "\n"
 			:icount nil
 			:csep "\n"
-			:cbon "[X]" :cboff "[ ]"
-			:cbtrans "[-]"))))))
+			:cbon "\{\{\\[X\\]\}\}" :cboff "\{\{\\[ \\]\}\}"
+			:cbtrans "\{\{\\[-\\]\}\}"))))))
 
 (defun org-confluence-export-tables ()
   "Convert tables in the current buffer to confluence tables."
